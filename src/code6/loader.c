@@ -25,7 +25,7 @@ void main(BLOCKINFO* bi)
     textPos->y += 16;
     textPos->x  = 20;
 
-    uint8_t st4[] = "End Program";
+    uint8_t st4[] = "This just a test";
     Print(st4, textPos->x, textPos->y, 1, GREEN);
 
     while(1){__asm__ ("hlt");}
